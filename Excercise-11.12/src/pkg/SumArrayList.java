@@ -2,13 +2,13 @@ package pkg;
 
 import java.util.ArrayList;
 
+/**
+ *A container class which has the method needed for exercise 11.12
+ */
+
 public class SumArrayList {
   /**
-   * sum
-   * 
-   * @param list, an ArrayList of doubles 
-   * Sums up all the elements in list
-   * @return the sum
+   * sums up all the contents on any ArrayList, and returns the sum
    */
   public static double sum(ArrayList<Double> list) {
     double sum = 0;
