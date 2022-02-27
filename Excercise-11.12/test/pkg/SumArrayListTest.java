@@ -27,7 +27,7 @@ public class SumArrayListTest {
   }
 
   @Test
-  public void testArray_ZeroValues() {
+  public void testSum_ZeroValues() {
     testArray.addAll(Arrays.asList(0.0, 0.0, 0.0));
     actualSum = SumArrayList.sum(testArray);
     expectedSum = 0.0;
@@ -35,7 +35,7 @@ public class SumArrayListTest {
   }
 
   @Test
-  public void testArray_MixedValues() {
+  public void testSum_MixedValues() {
     testArray.addAll(Arrays.asList(5.5, -2.0, 1.123));
     actualSum = SumArrayList.sum(testArray);
     expectedSum = 4.623;
