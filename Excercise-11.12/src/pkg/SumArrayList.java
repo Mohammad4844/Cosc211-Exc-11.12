@@ -3,7 +3,7 @@ package pkg;
 import java.util.ArrayList;
 
 /**
- *A container class which has the method needed for exercise 11.12
+ * A container class which has the method needed for exercise 11.12
  */
 
 public class SumArrayList {
